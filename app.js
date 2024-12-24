@@ -19,7 +19,7 @@ const reviewRouter = require("./routes/review.js");
 const userRouter = require("./routes/user.js");
 
 
-const dbUrl = "mongodb+srv://ronakcoder340:ronsa12345@cluster0.jy89n.mongodb.net/wandelust"
+const dbUrl = "mongodburl"
 main().then(()=>{
     console.log("connected to db");
 })
